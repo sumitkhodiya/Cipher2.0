@@ -144,11 +144,32 @@ Statistical reliability depends directly on cohort response count ($n$):
 
 ---
 
+## Code Files & Reproducibility Pipeline
+
+The complete reproducible data extraction, scoring conversion, and verification pipeline is provided in both Node.js and Python:
+
+* **Node.js Pipeline:** `process_data.js` (Zero external dependencies)
+  ```bash
+  node process_data.js
+  ```
+  Parses the OpenXML spreadsheet, maps the 5-point Likert scales, performs data audits, and outputs `mentor_leaderboard.csv`, `section_breakdown.csv`, and updates `data.js`.
+
+* **Python Pipeline:** `analysis_pipeline.py` (Standard library)
+  ```bash
+  python analysis_pipeline.py
+  ```
+
+---
+
 ## Dashboard Deployment
 
-* **Interactive Interface:** [c:\Users\sumit\Documents\CipherAssign2\Question2\index.html](file:///c:/Users/sumit/Documents/CipherAssign2/Question2/index.html)
-* **Dataset Export:** [c:\Users\sumit\Documents\CipherAssign2\Question2\data.js](file:///c:/Users/sumit/Documents/CipherAssign2/Question2/data.js)
-* **Server Script:** [c:\Users\sumit\Documents\CipherAssign2\Question2\server.js](file:///c:/Users/sumit/Documents/CipherAssign2/Question2/server.js)
+* **Interactive Interface:** [index.html](file:///c:/Users/sumit/Documents/CipherAssign2/Question2/index.html)
+* **Dataset Export:** [data.js](file:///c:/Users/sumit/Documents/CipherAssign2/Question2/data.js)
+* **Server Script:** [server.js](file:///c:/Users/sumit/Documents/CipherAssign2/Question2/server.js)
+* **Pipeline Script:** [process_data.js](file:///c:/Users/sumit/Documents/CipherAssign2/Question2/process_data.js)
+* **Python Script:** [analysis_pipeline.py](file:///c:/Users/sumit/Documents/CipherAssign2/Question2/analysis_pipeline.py)
+* **Leaderboard CSV:** [mentor_leaderboard.csv](file:///c:/Users/sumit/Documents/CipherAssign2/Question2/mentor_leaderboard.csv)
+* **Section Breakdown CSV:** [section_breakdown.csv](file:///c:/Users/sumit/Documents/CipherAssign2/Question2/section_breakdown.csv)
 
 ### Launch Command:
 ```powershell

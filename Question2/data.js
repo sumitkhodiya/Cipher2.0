@@ -39,10 +39,7 @@ window.FEEDBACK_DATA = {
       "overallScore": 4.41,
       "overallExact": 4.4067,
       "totalPoints": 661,
-      "maxPossiblePoints": 150,
-      "reliabilityFlag": "Reliable Sample",
-      "flagClass": "flag-reliable",
-      "flagNote": "Adequate sample size (n >= 15)",
+      "reliabilityFlag": "Reliable (n >= 15)",
       "pace": {
         "Just Right": 23,
         "Slightly Fast": 7
@@ -95,6 +92,11 @@ window.FEEDBACK_DATA = {
           "other": "no"
         },
         {
+          "section": "Section 1",
+          "improve": ".",
+          "other": "."
+        },
+        {
           "section": "Section 2",
           "improve": "codefri loading",
           "other": "no"
@@ -103,6 +105,11 @@ window.FEEDBACK_DATA = {
           "section": "Section 1",
           "improve": "Some changes on the codeFri test platform, sometimes its hard to log in.",
           "other": "Nothing"
+        },
+        {
+          "section": "Section 1",
+          "improve": ".",
+          "other": "."
         },
         {
           "section": "Section 2",
@@ -166,6 +173,11 @@ window.FEEDBACK_DATA = {
         },
         {
           "section": "Section 2",
+          "improve": "Na",
+          "other": "Na"
+        },
+        {
+          "section": "Section 2",
           "improve": "CodeFri completely lags my intel i5 13th gen H processor laptop, and also it doesnt even let me abort and close the browser if it is lagging i have to force shut down and restart.",
           "other": "No"
         },
@@ -196,10 +208,7 @@ window.FEEDBACK_DATA = {
       "overallScore": 4.11,
       "overallExact": 4.1143,
       "totalPoints": 144,
-      "maxPossiblePoints": 35,
-      "reliabilityFlag": "High Variance Alert",
-      "flagClass": "flag-danger",
-      "flagNote": "Critically small sample (n = 7 < 10). Prone to small-sample bias.",
+      "reliabilityFlag": "High Variance Alert (n < 10)",
       "pace": {
         "Just Right": 6,
         "Slightly Fast": 1
@@ -222,12 +231,22 @@ window.FEEDBACK_DATA = {
         },
         {
           "section": "Section 1",
+          "improve": "Nothing",
+          "other": "No"
+        },
+        {
+          "section": "Section 1",
           "improve": "The test platform is not working well",
           "other": "No"
         },
         {
           "section": "Section 1",
           "improve": "Everything is perfect",
+          "other": "No"
+        },
+        {
+          "section": "Section 1",
+          "improve": "No",
           "other": "No"
         },
         {
@@ -252,10 +271,7 @@ window.FEEDBACK_DATA = {
       "overallScore": 4.1,
       "overallExact": 4.096,
       "totalPoints": 1024,
-      "maxPossiblePoints": 250,
-      "reliabilityFlag": "Reliable Sample",
-      "flagClass": "flag-reliable",
-      "flagNote": "Adequate sample size (n >= 15)",
+      "reliabilityFlag": "Reliable (n >= 15)",
       "pace": {
         "Slightly Fast": 10,
         "Just Right": 39,
@@ -272,6 +288,11 @@ window.FEEDBACK_DATA = {
           "section": "Section 1",
           "improve": "Browser",
           "other": "Nothing"
+        },
+        {
+          "section": "Section 1",
+          "improve": "Nothing",
+          "other": "No"
         },
         {
           "section": "Section 1",
@@ -305,13 +326,33 @@ window.FEEDBACK_DATA = {
         },
         {
           "section": "Section 1",
+          "improve": "Nothing",
+          "other": "No"
+        },
+        {
+          "section": "Section 1",
           "improve": ".",
           "other": "Everything is going great"
         },
         {
           "section": "Section 1",
+          "improve": "none",
+          "other": "no"
+        },
+        {
+          "section": "Section 1",
           "improve": "neocolab",
           "other": "no"
+        },
+        {
+          "section": "Section 1",
+          "improve": ".",
+          "other": "."
+        },
+        {
+          "section": "Section 1",
+          "improve": "No",
+          "other": "No"
         },
         {
           "section": "Section 1",
@@ -375,6 +416,16 @@ window.FEEDBACK_DATA = {
         },
         {
           "section": "Section 1",
+          "improve": "No",
+          "other": "No"
+        },
+        {
+          "section": "Section 1",
+          "improve": "no",
+          "other": "no"
+        },
+        {
+          "section": "Section 1",
           "improve": "codefri app",
           "other": "no"
         },
@@ -390,6 +441,11 @@ window.FEEDBACK_DATA = {
         },
         {
           "section": "Section 1",
+          "improve": ".",
+          "other": "."
+        },
+        {
+          "section": "Section 1",
           "improve": "nope",
           "other": "nope"
         },
@@ -402,6 +458,16 @@ window.FEEDBACK_DATA = {
           "section": "Section 1",
           "improve": "overall good",
           "other": "no thanks"
+        },
+        {
+          "section": "Section 1",
+          "improve": "No",
+          "other": "No"
+        },
+        {
+          "section": "Section 1",
+          "improve": "",
+          "other": "no"
         },
         {
           "section": "Section 1",
@@ -425,8 +491,18 @@ window.FEEDBACK_DATA = {
         },
         {
           "section": "Section 1",
+          "improve": "Nothing",
+          "other": "No"
+        },
+        {
+          "section": "Section 1",
           "improve": "U r already perfect",
           "other": "No"
+        },
+        {
+          "section": "Section 1",
+          "improve": "no",
+          "other": "no"
         },
         {
           "section": "Section 1",
@@ -450,10 +526,7 @@ window.FEEDBACK_DATA = {
       "overallScore": 3.98,
       "overallExact": 3.9789,
       "totalPoints": 378,
-      "maxPossiblePoints": 95,
-      "reliabilityFlag": "Reliable Sample",
-      "flagClass": "flag-reliable",
-      "flagNote": "Adequate sample size (n >= 15)",
+      "reliabilityFlag": "Reliable (n >= 15)",
       "pace": {
         "Just Right": 15,
         "Slightly Fast": 4
@@ -502,8 +575,23 @@ window.FEEDBACK_DATA = {
         },
         {
           "section": "Section 1",
+          "improve": ".",
+          "other": "."
+        },
+        {
+          "section": "Section 1",
           "improve": "Codedri is not working, it always says wrong email password",
           "other": "Nothing , Phaham sir engage us to study better"
+        },
+        {
+          "section": "Section 1",
+          "improve": ".",
+          "other": "."
+        },
+        {
+          "section": "Section 1",
+          "improve": "Nothing",
+          "other": "No"
         },
         {
           "section": "Section 1",
@@ -519,6 +607,11 @@ window.FEEDBACK_DATA = {
           "section": "Section 1",
           "improve": "nothing everything is nice",
           "other": "nothing everything is nice"
+        },
+        {
+          "section": "Section 1",
+          "improve": "nothing",
+          "other": "nothing"
         },
         {
           "section": "Section 1",
@@ -558,10 +651,7 @@ window.FEEDBACK_DATA = {
       "overallScore": 3.95,
       "overallExact": 3.9515,
       "totalPoints": 652,
-      "maxPossiblePoints": 165,
-      "reliabilityFlag": "Reliable Sample",
-      "flagClass": "flag-reliable",
-      "flagNote": "Adequate sample size (n >= 15)",
+      "reliabilityFlag": "Reliable (n >= 15)",
       "pace": {
         "Just Right": 22,
         "Slightly Fast": 7,
@@ -587,6 +677,16 @@ window.FEEDBACK_DATA = {
         },
         {
           "section": "Section 1",
+          "improve": "Nil",
+          "other": "Nil"
+        },
+        {
+          "section": "Section 2",
+          "improve": ".",
+          "other": "."
+        },
+        {
+          "section": "Section 1",
           "improve": "Ntg",
           "other": "Ntg"
         },
@@ -594,6 +694,11 @@ window.FEEDBACK_DATA = {
           "section": "Section 1",
           "improve": "all good",
           "other": "all good"
+        },
+        {
+          "section": "Section 1",
+          "improve": "No",
+          "other": "No"
         },
         {
           "section": "Section 1",
@@ -637,8 +742,23 @@ window.FEEDBACK_DATA = {
         },
         {
           "section": "Section 1",
+          "improve": "Nothing",
+          "other": "Nothing"
+        },
+        {
+          "section": "Section 1",
+          "improve": "Nothing",
+          "other": "Nothing"
+        },
+        {
+          "section": "Section 1",
           "improve": "everything is all right no opinion.",
           "other": "nothing"
+        },
+        {
+          "section": "Section 1",
+          "improve": ".",
+          "other": "."
         },
         {
           "section": "Section 1",
@@ -647,8 +767,23 @@ window.FEEDBACK_DATA = {
         },
         {
           "section": "Section 1",
+          "improve": "no",
+          "other": "no"
+        },
+        {
+          "section": "Section 1",
+          "improve": ".",
+          "other": "."
+        },
+        {
+          "section": "Section 1",
           "improve": "N",
           "other": "N"
+        },
+        {
+          "section": "Section 1",
+          "improve": "Na",
+          "other": "Na"
         },
         {
           "section": "Section 1",
@@ -659,6 +794,11 @@ window.FEEDBACK_DATA = {
           "section": "Section 1",
           "improve": "All are good",
           "other": "Nothing"
+        },
+        {
+          "section": "Section 2",
+          "improve": "No",
+          "other": "No"
         }
       ],
       "rank": 5
@@ -677,10 +817,7 @@ window.FEEDBACK_DATA = {
       "overallScore": 3.91,
       "overallExact": 3.9091,
       "totalPoints": 215,
-      "maxPossiblePoints": 55,
-      "reliabilityFlag": "Low Sample Caution",
-      "flagClass": "flag-warning",
-      "flagNote": "Marginal sample (n = 11 < 15). Interpret with caution.",
+      "reliabilityFlag": "Low Sample Caution (n < 15)",
       "pace": {
         "Just Right": 8,
         "Slightly Fast": 2,
@@ -707,6 +844,21 @@ window.FEEDBACK_DATA = {
           "section": "Section 1",
           "improve": "nothing all ok",
           "other": "nothing all ok"
+        },
+        {
+          "section": "Section 1",
+          "improve": "Nothing",
+          "other": "No"
+        },
+        {
+          "section": "Section 1",
+          "improve": "Nothing",
+          "other": "Nothing"
+        },
+        {
+          "section": "Section 1",
+          "improve": "No",
+          "other": "No"
         },
         {
           "section": "Section 1",
@@ -750,10 +902,7 @@ window.FEEDBACK_DATA = {
       "overallScore": 3.91,
       "overallExact": 3.9063,
       "totalPoints": 625,
-      "maxPossiblePoints": 160,
-      "reliabilityFlag": "Reliable Sample",
-      "flagClass": "flag-reliable",
-      "flagNote": "Adequate sample size (n >= 15)",
+      "reliabilityFlag": "Reliable (n >= 15)",
       "pace": {
         "Just Right": 19,
         "Slightly Fast": 9,
@@ -766,6 +915,16 @@ window.FEEDBACK_DATA = {
         "Haven’t used it enough yet": 1
       },
       "comments": [
+        {
+          "section": "Section 1",
+          "improve": "Nothing",
+          "other": "Nothing"
+        },
+        {
+          "section": "Section 1",
+          "improve": "No",
+          "other": "No"
+        },
         {
           "section": "Section 1",
           "improve": "More focus on logic building and explaining code briefly",
@@ -783,8 +942,18 @@ window.FEEDBACK_DATA = {
         },
         {
           "section": "Section 1",
+          "improve": "none",
+          "other": "no"
+        },
+        {
+          "section": "Section 1",
           "improve": "If we could squeeze in a few more practice questions it would be great.",
           "other": ""
+        },
+        {
+          "section": "Section 1",
+          "improve": "nothing",
+          "other": "no"
         },
         {
           "section": "Section 1",
@@ -818,8 +987,23 @@ window.FEEDBACK_DATA = {
         },
         {
           "section": "Section 1",
+          "improve": "Nothing",
+          "other": "No"
+        },
+        {
+          "section": "Section 1",
+          "improve": "No",
+          "other": "No"
+        },
+        {
+          "section": "Section 1",
           "improve": "Not able to understand all as bcz it is so hard syllabus",
           "other": ""
+        },
+        {
+          "section": "Section 1",
+          "improve": "",
+          "other": "nothing"
         },
         {
           "section": "Section 1",
@@ -828,7 +1012,17 @@ window.FEEDBACK_DATA = {
         },
         {
           "section": "Section 1",
+          "improve": "Nothing",
+          "other": "No"
+        },
+        {
+          "section": "Section 1",
           "improve": "DSA",
+          "other": "No"
+        },
+        {
+          "section": "Section 1",
+          "improve": ".",
           "other": "No"
         },
         {
@@ -889,10 +1083,7 @@ window.FEEDBACK_DATA = {
       "overallScore": 3.77,
       "overallExact": 3.7714,
       "totalPoints": 1056,
-      "maxPossiblePoints": 280,
-      "reliabilityFlag": "Reliable Sample",
-      "flagClass": "flag-reliable",
-      "flagNote": "Adequate sample size (n >= 15)",
+      "reliabilityFlag": "Reliable (n >= 15)",
       "pace": {
         "Just Right": 41,
         "Slightly Fast": 15
@@ -951,8 +1142,28 @@ window.FEEDBACK_DATA = {
         },
         {
           "section": "Section 1",
+          "improve": "Nothing",
+          "other": "Nothing"
+        },
+        {
+          "section": "Section 1",
+          "improve": "Nothing",
+          "other": "No"
+        },
+        {
+          "section": "Section 1",
+          "improve": "Na",
+          "other": "Na"
+        },
+        {
+          "section": "Section 1",
           "improve": "The CodeFri Interface can be improved.",
           "other": "No"
+        },
+        {
+          "section": "Section 1",
+          "improve": "----",
+          "other": "----"
         },
         {
           "section": "Section 1",
@@ -965,13 +1176,33 @@ window.FEEDBACK_DATA = {
           "other": "I don't want to give any suggestion because everything is ok in our class"
         },
         {
+          "section": "Section 1",
+          "improve": "---",
+          "other": "---"
+        },
+        {
           "section": "Section 2",
           "improve": "nothing",
           "other": "sir is good"
         },
         {
           "section": "Section 2",
+          "improve": "na",
+          "other": "na"
+        },
+        {
+          "section": "Section 2",
           "improve": "everything is good for me",
+          "other": "no"
+        },
+        {
+          "section": "Section 2",
+          "improve": "nothing",
+          "other": "nil"
+        },
+        {
+          "section": "Section 2",
+          "improve": "nothing",
           "other": "no"
         },
         {
@@ -986,7 +1217,27 @@ window.FEEDBACK_DATA = {
         },
         {
           "section": "Section 2",
+          "improve": "no",
+          "other": "nothing"
+        },
+        {
+          "section": "Section 2",
+          "improve": "Nothing",
+          "other": "No"
+        },
+        {
+          "section": "Section 2",
+          "improve": "nothing",
+          "other": "nothing"
+        },
+        {
+          "section": "Section 2",
           "improve": "good teacher",
+          "other": "no"
+        },
+        {
+          "section": "Section 2",
+          "improve": "no",
           "other": "no"
         },
         {
@@ -998,6 +1249,11 @@ window.FEEDBACK_DATA = {
           "section": "Section 2",
           "improve": "Nothing at the moment. The classes and learning experience are going well.",
           "other": "I am satisfied with the overall learning experience. The mentors are supportive, and the topics are explained clearly. I appreciate the efforts taken to make the classes engaging and helpful."
+        },
+        {
+          "section": "Section 2",
+          "improve": "na",
+          "other": "na"
         },
         {
           "section": "Section 2",
@@ -1038,6 +1294,16 @@ window.FEEDBACK_DATA = {
           "section": "Section 1",
           "improve": "Explanation and Making us to think",
           "other": "no"
+        },
+        {
+          "section": "Section 1",
+          "improve": "nothing",
+          "other": "nothing"
+        },
+        {
+          "section": "Section 1",
+          "improve": "_____",
+          "other": "_____"
         },
         {
           "section": "Section 1",

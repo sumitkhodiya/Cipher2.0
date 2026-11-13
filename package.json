@@ -1,0 +1,12 @@
+{
+  "name": "cipherschools-feedback-intelligence-root",
+  "version": "1.0.0",
+  "description": "Semester student feedback survey analysis, mentor leaderboard, and executive dashboard",
+  "main": "Question2/server.js",
+  "scripts": {
+    "start": "node Question2/server.js",
+    "analyze": "node Question2/process_data.js"
+  },
+  "author": "sumitkhodiya",
+  "license": "MIT"
+}

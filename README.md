@@ -10,12 +10,35 @@ Repository: [https://github.com/sumitkhodiya/Cipher2.0](https://github.com/sumit
 
 ```
 ├── CipherSchools – Student Feedback 1(Sheet3).xlsx   # Raw student feedback survey dataset (N = 238)
+├── package.json                                      # Root project manifest (npm start, npm run analyze)
 ├── Question2/
 │   ├── index.html                                    # Standalone executive analytics dashboard
 │   ├── data.js                                       # Parsed & structured JSON survey database
 │   ├── server.js                                     # Lightweight local Node.js server runner
+│   ├── process_data.js                               # Node.js data processing & scoring pipeline
+│   ├── analysis_pipeline.py                          # Python data processing & scoring pipeline
+│   ├── mentor_leaderboard.csv                        # Official mentor leaderboard export (CSV)
+│   ├── section_breakdown.csv                         # Section-level disaggregation export (CSV)
+│   ├── package.json                                  # Question2 manifest
 │   └── README.md                                     # In-depth Problem 2 executive submission report
 └── README.md                                         # Project documentation
+```
+
+---
+
+## Reproducing the Analysis & Running the Pipeline
+
+You can re-run the full data extraction, 1-to-5 Likert conversion, audit checks, and scoring calculations at any time:
+
+### Using Node.js:
+```bash
+npm run analyze
+# or: node Question2/process_data.js
+```
+
+### Using Python:
+```bash
+python Question2/analysis_pipeline.py
 ```
 
 ---
